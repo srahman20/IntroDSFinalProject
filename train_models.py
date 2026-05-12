@@ -1,10 +1,4 @@
-"""
-Main training script for SMS phishing detection.
 
-Run this file from the project root:
-
-    python src/train_models.py
-"""
 
 from pathlib import Path
 
@@ -60,7 +54,7 @@ def load_dataset() -> pd.DataFrame:
             raise ValueError("CSV file must contain 'label' and 'message' columns.")
         return df[["label", "message"]]
 
-    # Original UCI format is usually tab-separated: label<TAB>message
+    
     df = pd.read_csv(
         available_path,
         sep="\t",
