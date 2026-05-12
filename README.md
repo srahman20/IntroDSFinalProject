@@ -1,5 +1,5 @@
 Saami Rahman
-#Instructions:
+Instructions:
 
  The SMS Spam Collection Dataset in this folder.
 
