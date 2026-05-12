@@ -1,8 +1,4 @@
-"""
-Preprocessing utilities for SMS phishing detection.
 
-This file cleans SMS messages before vectorization and modeling.
-"""
 
 import re
 import string
@@ -67,9 +63,9 @@ def add_engineered_features(df):
 
     Features:
     - message_length
-    - num_exclamation
-    - num_digits
-    - has_url
+    - num_exclamation//
+    - num_digits//
+    - has_url//
 
     Args:
         df: DataFrame with a 'message' column.
