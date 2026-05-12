@@ -1,6 +1,3 @@
-"""
-Visualization utilities for SMS phishing detection.
-"""
 
 from pathlib import Path
 
@@ -36,7 +33,7 @@ def save_label_distribution(df: pd.DataFrame, output_path="results/figures/label
 
     Args:
         df: DataFrame containing a 'label' column.
-        output_path: Output file path for the figure.
+        output_pth: Output file path for the figure.
     """
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)
 
