@@ -1,6 +1,7 @@
-# Dataset Instructions
+Saami Rahman
+#Instructions:
 
-Place the SMS Spam Collection Dataset in this folder.
+ The SMS Spam Collection Dataset in this folder.
 
 Supported filenames:
 - `SMSSpamCollection`
@@ -11,11 +12,11 @@ The project expects two columns:
 - `label`: spam or ham
 - `message`: SMS text
 
-If using the original UCI file, it usually has tab-separated values like:
+If you are using the original UCI file, it usually has tab separated values like:
 
 ```text
 ham    Go until jurong point...
 spam   Free entry in 2 a wkly comp...
 ```
 
-The code automatically handles the common UCI tab-separated format.
+The code will automatically handle the common UCI tab separated format.
