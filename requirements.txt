@@ -1,4 +1,4 @@
-pandas
+pandas #f
 numpy
 scikit-learn
 matplotlib
